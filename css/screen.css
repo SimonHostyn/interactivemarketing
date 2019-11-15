@@ -1,0 +1,8 @@
+html, body {
+  margin: 0; padding: 0;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -9602px 0; }
+}
