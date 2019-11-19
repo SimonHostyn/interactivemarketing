@@ -1,5 +1,31 @@
 <?php
 
+    if(!empty($_POST['voornaam']) && !empty($_POST['naam']) && !empty($_POST['email'])){
+
+        $voornaam = $_POST['voornaam'];
+        $naam = $_POST['naam'];
+        $email =$_POST['email'];
+
+        if(strpos($email,'@') == false){
+            echo 'ah shit, ge vergat een @ in de mail';
+        }
+
+
+        $conn = new PDO("mysql:host=localhost; dbname=interactive;","root","");
+        $statement = $conn->prepare("INSERT into userData (email,naam,voornaam) VALUES(:email, :naam, :voornaam)");
+        $statement->bindParam(":email",$email);
+        $statement->bindParam(":naam",$naam);
+        $statement->bindParam(":voornaam",$voornaam);
+        $result = $statement->execute();
+
+        if($result == true){
+            echo 'signup gelukt';
+        }
+        else{
+            echo 'yikes';
+        }
+    }
+
 ?>
 <!DOCTYPE html>
 <html>
