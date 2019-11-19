@@ -32,9 +32,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/screen.min.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.css">
     <title>IMD voor vrouwen | Kom het hier te weten!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
 
     <meta name="theme-color" content="#272727">
@@ -68,7 +70,7 @@
     <body>
         <section class="text-section text-section1">
             <h1>WE NEED YOU!</h1>
-            <p>IMD is elk jaar opnieuw opzoek naar nieuwe studenten die een carrière willen beginnen in webdesign of webdevelopment. </br>
+            <p id="subtitle">IMD is elk jaar opnieuw opzoek naar nieuwe studenten die een carrière willen beginnen in webdesign of webdevelopment. </br>
             Met deze test kan je te weten komen of jij de capaciteiten hebt om IMD'er te worden!</p>
         </section>
         <section class="text-section text-section2">
