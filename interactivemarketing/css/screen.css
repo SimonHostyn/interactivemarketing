@@ -1,0 +1,1094 @@
+@font-face{
+ font-family: "raustila";
+ src: url("../font/raustila-Regular.otf"); 
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  background-color: #F7F7F7;
+}
+
+
+h1{
+  font-size: 25px;
+  font-family:'Overpass', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  font-family:'Overpass', sans-serif;
+}
+
+body p{
+
+  font-family: 'Lato', serif;
+  line-height:1.4em ;
+}
+
+#subtitle{
+  font-family: 'Lato', serif;
+}
+
+@media only screen and (min-width:320px){
+
+  .text-section1{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -0.1%;
+
+    /* background-color: sandybrown; */
+    background-image: url(../images/1x/obj1-1.png), url(../images/1x/obj2-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom -1em left -8em, top -5em right -3em;
+    background-size: 300px,200px;
+  }
+
+  .sect1{
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin:80% 0 0% 0;
+
+   
+    
+  }
+
+  h1{
+    text-align: center;
+    margin: 20px 0 50px 0;
+  }
+
+  .text-section1 p{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    
+    text-align: left;
+    margin: 0 auto;
+    
+  }
+
+/* -----------text-section2----------- */
+
+  /* .text-section2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:50% 0 25% 0;
+
+  } */
+
+  .text-section2{
+    display: block;
+    position: absolute;      
+    width: 100%;
+    height: 100%;
+    margin:0% 0 0% 0;
+    top: 100%;
+    /* background-color: blue; */
+
+    background-image: url(../images/1x/obj1-2.png), url(../images/1x/obj2-2.png);
+    background-repeat: no-repeat;
+    background-position: top  left -8em, bottom  right -3em;
+    background-size: 300px,200px;
+  }
+
+  .sect2{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin:20% 0 20% 0;
+
+      /* background-color: red; */
+   
+    
+  }
+
+  .text-section2 h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+
+  }
+
+  .text-section2 p{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    
+    text-align: left;
+    margin: 0 auto;    
+  }
+
+/* -----------formsection----------- */
+
+  #center{
+
+    display: block;
+   
+    width: 90%;
+    height: auto;
+    
+    background-color:white;
+    margin: 10% auto 20% auto;
+
+    background-color: white;
+    border: 2px  solid white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    box-shadow:0 15px 20px #5e5d5b;
+  }
+  
+
+  #center h1{
+
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+
+   }
+
+   #titel{
+
+    display: block;
+    width: auto;
+    padding: 5% 0 10% 0;
+   }
+
+   #vraag {
+
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10% 0 5% 0;
+
+   }
+
+   #score p{
+    display: hidden;
+    height: 0;
+    width: 0;
+   }  
+   
+   #nummer p{
+    display: hidden; 
+    height: 0;
+    width: 0;
+   }
+
+  .buttons{
+   
+    margin: 0 5px;
+   
+  }
+
+  .btn{
+
+    display: block;
+    width:100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 0 5%; */
+  }
+
+  #ja{
+    text-align: center;
+    padding: 5px 45px 5px 45px;
+    color: white;
+ 
+    background-color: #D3EF9F;
+    border: 2px  solid #D3EF9F;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+  }
+
+  #nee{
+    text-align: center;
+    padding: 5px 45px 5px 35px;
+    color: white;
+   
+    background-color: #FF8080;
+    border: 2px  solid #FF8080;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+  }
+
+  #startknop{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+  }
+/* -----------form----------- */
+.containerform{
+  display: block;
+  position: absolute;      
+  width: 100%;
+  height: 110%;
+  margin:0% 0 0% 0;
+  top: 200%;
+  /* background-color: blue; */
+
+  background-image: url(../images/1x/obj1-3.png), url(../images/1x/obj2-3.png), url(../images/1x/obj3-3.png);
+  background-repeat: no-repeat;
+  background-position: top 2em  left -8em, bottom -3em  left -3em, center right -8em;
+  background-size: 300px,200px;
+}
+
+.sect3{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin:5% 0 5% 0;
+
+    /* background-color: red; */
+ 
+  
+}
+
+.containerform h2{
+
+  display: block;
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+
+ }
+
+ .sect3 p{
+   display: block;
+   width:80%;
+   margin: auto;
+   padding: 30px 0 20px 0;
+ }
+
+ #programma{
+
+  display: block;
+  width: 15em;
+  height: auto;
+  background-color: #C6F1D6;
+  margin: 2em auto 5em auto;
+
+  text-decoration: none;
+  font-family: "Lato",sans-serif;
+  color: white;
+  text-align: center;
+  padding: 0.8em 4em 0.8em 3em;
+
+  background-color: #C6F1D6;
+  border: 2px  solid #C6F1D6;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  box-shadow:0 15px 20px #5e5d5b;
+ }
+
+ .form{
+
+  display: block;
+  width: 90%;
+  height: auto;
+  
+  background-color:white;
+  margin: 0 auto 20% auto;
+
+  background-color: white;
+  border: 2px  solid white;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  box-shadow:0 15px 20px #5e5d5b;
+
+ }
+
+ .form h2{
+
+  display: block;
+  padding: 20px 0;
+ }
+
+ form{
+
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 20px auto 10px auto;
+ }
+
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto 8px auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #5e5d5b;
+}
+
+input[type=submit]{
+  display: block;
+    width: 80%;
+    height: auto;
+    margin: 20px auto 10px auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    
+}
+
+}
+
+/* ----------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------MQ 768px-----------------------
+-------------------------------------------------------
+-------------------------------------------------------
+*/
+
+
+@media only screen and (min-width: 768px){
+  .text-section1{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -0.1%;
+
+    /* background-color: sandybrown; */
+    background-image: url(../images/1x/obj1-1.png), url(../images/1x/obj2-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom  left -8em, top -5em right -3em;
+    background-size: 500px,300px;
+  }
+
+  .sect1{
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin:85% 0 0% 0;
+
+   
+    
+  }
+
+  h1{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .text-section1 p{
+
+    display: block;
+    width: 70%;
+    height: auto;
+    
+    text-align: left;
+    margin: 0 auto;
+
+    font-size: 20px;
+    
+  }
+
+/* -----------text-section2----------- */
+
+  /* .text-section2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:50% 0 25% 0;
+
+  } */
+
+  .text-section2{
+    display: block;
+    position: absolute;      
+    width: 100%;
+    height: 80%;
+    margin:0% 0 0% 0;
+    top: 100%;
+    /* background-color: blue; */
+
+    background-image: url(../images/1x/obj1-2.png), url(../images/1x/obj2-2.png);
+    background-repeat: no-repeat;
+    background-position: top 5em left -10em, bottom 5em  right -5em;
+    background-size: 400px,300px;
+  }
+
+  .sect2{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin:10% 0 10% 0;
+
+      /* background-color: red; */
+   
+    
+  }
+
+  .text-section2 h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+  .text-section2 p{
+
+    display: block;
+    width: 50%;
+    height: auto;
+    
+    text-align: center;
+    margin: 0 auto;   
+    font-size: 20px; 
+  }
+
+/* -----------formsection----------- */
+
+  #center{
+
+    display: block;
+   
+    width: 60%;
+    height: auto;
+    
+    background-color:white;
+    margin: 0% auto 20% auto;
+
+    background-color: white;
+    border: 2px  solid white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    box-shadow:0 15px 20px #5e5d5b;
+  }
+  
+
+  #center h1{
+
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+
+   }
+
+   #titel{
+
+    display: block;
+    width: 300px;
+    padding: 5% 0 10% 0;
+   }
+
+   #vraag {
+
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10% 0 5% 0;
+    font-size: 20px;
+
+   }
+
+   #score p{
+    display: hidden;
+    height: 0;
+    width: 0;
+    font-size: 20px;
+   }  
+   
+   #nummer p{
+    display: hidden; 
+    height: 0;
+    width: 0;
+   }
+
+  .buttons{
+   
+    margin: 0 5px;
+    font-size: 20px;
+  }
+
+  .btn{
+
+    display: block;
+    width:100%;
+    height: 50px;
+    margin: 2em auto 0 auto;
+    text-align: center;
+   
+  }
+
+  #ja{
+    text-align: center;
+    padding: 5px 45px 5px 45px;
+    color: white;
+ 
+    background-color: #D3EF9F;
+    border: 2px  solid #D3EF9F;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+    
+  }
+
+  #nee{
+    text-align: center;
+    padding: 5px 45px 5px 35px;
+    color: white;
+   
+    background-color: #FF8080;
+    border: 2px  solid #FF8080;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+  }
+
+  #startknop{
+
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    font-size: 20px;
+  }
+/* -----------form----------- */
+.containerform{
+  display: block;
+  position: absolute;      
+  width: 100%;
+  height: 80%;
+  margin:0% 0 0% 0;
+  top: 180%;
+  /* background-color: blue; */
+
+  background-image: url(../images/1x/obj1-3.png), url(../images/1x/obj2-3.png), url(../images/1x/obj3-3.png);
+  background-repeat: no-repeat;
+  background-position: top 5em  left -8em, bottom   left -3em, center right -3em;
+  background-size: 400px,300px,300px;
+}
+
+.sect3{
+  display: block;
+  width: 80%;
+  height: auto;
+  margin:5% auto 5% auto;
+
+    /* background-color: red; */
+ 
+  
+}
+
+.containerform h2{
+
+  display: block;
+  width: auto;
+  height: 20px;
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: bold;
+
+ }
+
+ .sect3 p{
+   display: block;
+   width:80%;
+   margin: auto;
+   padding: 30px 0 20px 0;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ #programma{
+
+  display: block;
+  width: 15em;
+  height: auto;
+  background-color: #C6F1D6;
+  margin: 2em auto 5em auto;
+
+  text-decoration: none;
+  font-family: "Lato",sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 0.8em 4em 0.8em 3em;
+
+  background-color: #C6F1D6;
+  border: 2px  solid #C6F1D6;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  box-shadow:0 15px 20px #5e5d5b;
+ }
+
+ .form{
+
+  display: block;
+  width: 80%;
+  height: auto;
+  
+  background-color:white;
+  margin: 0 auto 20% auto;
+
+  background-color: white;
+  border: 2px  solid white;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  box-shadow:0 15px 20px #5e5d5b;
+
+ }
+
+ .form h2{
+
+  display: block;
+  padding: 40px 0;
+ }
+
+ form{
+
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 20px auto 10px auto;
+ }
+
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto 8px auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #5e5d5b;
+
+  font-size: 18px;
+}
+
+input[type=submit]{
+  display: block;
+    width: 80%;
+    height: auto;
+    margin: 30px auto 50px auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    font-size: 20px;
+    
+}
+}
+
+
+/* ----------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------MQ 1200px-----------------------
+-------------------------------------------------------
+-------------------------------------------------------
+*/
+
+@media only screen and (min-width:1200px){
+  .text-section1{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -0.1%;
+
+    /* background-color: sandybrown; */
+    background-image: url(../images/1x/obj1-1.png), url(../images/1x/obj2-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom  left -8em, top -5em right -3em;
+    background-size: 500px,300px;
+  }
+
+  .sect1{
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin:35% 0 0% 0;
+
+   
+    
+  }
+
+  h1{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .text-section1 p{
+
+    display: block;
+    width: 70%;
+    height: auto;
+    
+    text-align: center;
+    margin: 0 auto;
+
+    font-size: 20px;
+    
+  }
+
+/* -----------text-section2----------- */
+
+  /* .text-section2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin:50% 0 25% 0;
+
+  } */
+
+  .text-section2{
+    display: block;
+    position: absolute;      
+    width: 100%;
+    height: 80%;
+    margin:0% 0 0% 0;
+    top: 100%;
+    /* background-color: blue; */
+
+    background-image: url(../images/1x/obj1-2.png), url(../images/1x/obj2-2.png);
+    background-repeat: no-repeat;
+    background-position: top 5em left -10em, bottom 5em  right -5em;
+    background-size: 400px,300px;
+  }
+
+  .sect2{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin:5% 0 5% 0;
+
+      /* background-color: red; */
+   
+    
+  }
+
+  .text-section2 h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+
+  .text-section2 p{
+
+    display: block;
+    width: 50%;
+    height: auto;
+    
+    text-align: center;
+    margin: 0 auto;   
+    font-size: 20px; 
+  }
+
+/* -----------formsection----------- */
+
+  #center{
+
+    display: block;
+   
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    
+    background-color:white;
+    margin: 0% auto 20% auto;
+
+    background-color: white;
+    border: 2px  solid white;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    box-shadow:0 15px 20px #5e5d5b;
+  }
+  
+
+  #center h1{
+
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+
+   }
+
+   #titel{
+
+    display: block;
+    width: 300px;
+    padding: 5% 0 10% 0;
+   }
+
+   #vraag {
+
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10% 0 5% 0;
+    font-size: 20px;
+
+   }
+
+   #score p{
+    display: hidden;
+    height: 0;
+    width: 0;
+    font-size: 20px;
+   }  
+   
+   #nummer p{
+    display: hidden; 
+    height: 0;
+    width: 0;
+   }
+
+  .buttons{
+   
+    margin: 0 5px;
+    font-size: 20px;
+  }
+
+  .btn{
+
+    display: block;
+    width:100%;
+    height: 50px;
+    margin: 2em auto 0 auto;
+    text-align: center;
+   
+  }
+
+  #ja{
+    text-align: center;
+    padding: 5px 45px 5px 45px;
+    color: white;
+    margin-right: 30px;
+    background-color: #D3EF9F;
+    border: 2px  solid #D3EF9F;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+    
+  }
+
+  #nee{
+    text-align: center;
+    padding: 5px 45px 5px 35px;
+    color: white;
+   
+    background-color: #FF8080;
+    border: 2px  solid #FF8080;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    
+  }
+
+  #startknop{
+
+    display: block;
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    font-size: 20px;
+  }
+/* -----------form----------- */
+.containerform{
+  display: block;
+  position: absolute;      
+  width: 100%;
+  height: 110%;
+  margin:0% 0 0% 0;
+  top: 200%;
+  /* background-color: blue; */
+
+  background-image: url(../images/1x/obj1-3.png), url(../images/1x/obj2-3.png), url(../images/1x/obj3-3.png);
+  background-repeat: no-repeat;
+  background-position: top 2em  left -5em, bottom  left -3em, center right -3em;
+  background-size: 300px,350px,350px;
+}
+
+.sect3{
+  display: block;
+  width: 80%;
+  height: auto;
+  margin:5% auto 5% auto;
+
+    /* background-color: red; */
+ 
+  
+}
+
+.containerform h2{
+
+  display: block;
+  width: auto;
+  height: 20px;
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: bold;
+
+ }
+
+ .sect3 p{
+   display: block;
+   width:80%;
+   margin: auto;
+   padding: 30px 0 20px 0;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ #programma{
+
+  display: block;
+  width: 15em;
+  height: auto;
+  background-color: #C6F1D6;
+  margin: 2em auto 5em auto;
+
+  text-decoration: none;
+  font-family: "Lato",sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 0.8em 4em 0.8em 3em;
+
+  background-color: #C6F1D6;
+  border: 2px  solid #C6F1D6;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  box-shadow:0 15px 20px #5e5d5b;
+ }
+
+ .form{
+
+  display: block;
+  width: 60%;
+  max-width: 60%;
+  height: auto;
+  
+  background-color:white;
+  margin: 0 auto 20% auto;
+
+  background-color: white;
+  border: 2px  solid white;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  box-shadow:0 15px 20px #5e5d5b;
+
+ }
+
+ .form h2{
+
+  display: block;
+  padding: 40px 0;
+ }
+
+ form{
+
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 20px auto 10px auto;
+ }
+
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto 8px auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #5e5d5b;
+
+  font-size: 18px;
+}
+
+input[type=submit]{
+  display: block;
+    width: 60%;
+    height: auto;
+    margin: 30px auto 50px auto;
+    padding: 10px 45px 10px 40px;
+    color: white;
+
+    background-color: #FFE08C;
+    border: 2px  solid #FFE08C;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+
+    font-size: 20px;
+    
+}
+}
